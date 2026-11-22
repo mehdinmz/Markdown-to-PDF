@@ -33,7 +33,9 @@ cd markdown-to-pdf
 Install the required dependencies:
 
 ```bash
-py -m pip install markdown playwright
+py -m venv .venv
+.venv/Scripts/Activate
+pip install -r requirements.txt
 ```
 
 No separate Chromium installation is required. The application uses your installed Microsoft Edge browser.
